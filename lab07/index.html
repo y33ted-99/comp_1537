@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="calc.js"></script>
+  <style>
+    #addStyle {
+      background-color: Tomato;
+    }
+
+    #subStyle {
+      background-color: rgb(251, 255, 16);
+    }
+
+    #mulStyle {
+      background-color: rgb(90, 188, 205);
+    }
+
+    #divStyle {
+      background-color: rgb(255, 9, 222);
+    }
+  </style>
+</head>
+
+
+<body>
+  <h1 style="text-align:center; font-size: 40px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Calculator</h1>
+  <div style="text-align:center; font-size: 40px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">First operand:<input id="operand_1"> </input></div>
+  <div style="text-align:center; font-size: 40px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Second operand:<input id="operand_2"> </input></div>
+  <div style="text-align:center;">
+    <button class="button_" id="add_"> + </button>
+    <button class="button_" id="sub_"> - </button>
+    <button class="button_" id="mul_"> * </button>
+    <button class="button_" id="div_"> / </button>
+    <div style="font-size: 40px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Result: <span id="result"> </span></div>
+  </div>
+
+  <h2 style="text-align:center; font-size: 40px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> History </h2>
+  <div style="text-align:center;" id="history"> </div>
+
+  <!-- <button id="show_button"> SHOW </button> -->
+  <!-- <button id="hide_button"> HIDE </button> -->
+  <div id="history"> </div>
+
+
+
+
+</body>
+
+</html>
