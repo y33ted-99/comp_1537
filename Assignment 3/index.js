@@ -10,7 +10,7 @@ function findUnicornByName() {
 
     $.ajax(
         {
-            url: "http://127.0.0.1:5500/public/index.html/findUnicornByName",
+            url: "https://comp1537brianmak.netlify.app/assignment%203/findUnicornByName",
             type: "POST",
             data: {
                 "unicornName": $("#unicornName").val()
@@ -31,7 +31,7 @@ function findUnicornByFood() {
     
     $.ajax(
         {
-            url: "http://127.0.0.1:5500/public/index.html/findUnicornByFood",
+            url: "https://comp1537brianmak.netlify.app/assignment%203/findUnicornByFood",
             type: "POST",
             data: {
                 "appleIsChecked": appleIsChecked,
